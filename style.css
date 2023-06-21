@@ -1,0 +1,169 @@
+.navbarTotal {
+    border: 1px solid none;
+    color: white;
+    background-color: #050563;
+    width: auto;
+    height: 62px;
+    padding-right: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLinks > img {
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.navbarMidden {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.feedback {
+    border: 1px solid none;
+    border-radius: 7px;
+    background-color: white;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #57BD8D;
+}
+
+.home > img, .universe > img, .reviews > img,
+.feedback > img, .doelen > img, .leaderboard > img, 
+.meer > img, .credits > img, .profiel > img {
+    width: 25px;
+}
+
+.home, .universe, .reviews, .feedback, 
+.doelen, .leaderboard, .meer, .credits, .profile {
+    display: flex;
+    align-items: center;
+}
+
+.navbarRechts {
+    flex-direction: row;
+    display: flex;
+    gap: 40px;
+}
+
+body {
+    font-family: monospace;
+    font-size: 110%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.profilenav {
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 7px;
+    padding-bottom: 5px;
+}
+
+.level {
+    border: 1px solid none;
+    border-radius: 5px;
+    border-left: 8px solid darkcyan;
+    background-color: lightblue;
+    padding-top: 7px;
+    padding-left: 43px;
+    padding-right: 43px;
+    height: 28px;
+    cursor: default;
+}
+
+.picture {
+    border: 1px solid none;
+    border-radius: 18px;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 33px;
+}
+
+.paginaTabel {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+.topInfo {
+    font-size: 14px;
+    color: lightslategray;
+}
+
+table {
+    font-size: 120%;
+    border: 1px solid none;
+    border-spacing: 20px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 4px gray;
+    height: 200px;
+}
+
+td, th {
+    height: 55px;
+    text-align: left;
+}
+
+.invulKnop{
+    border-color: #58BD8D;
+    border-radius: 5px;
+    background-color: #58BD8D;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 90px;
+    font-size: 90%;
+    box-shadow: 1px 1px 5px gray;
+    filter: brightness(100%);
+}
+
+.bekijkKnop {
+    border-color: #58BD8D;
+    border-radius: 5px;
+    background-color: #58BD8D;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 90px;
+    font-size: 90%;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.info1op1 {
+    border: 1px solid none;
+    width: 260px;
+    padding: 20px;
+    padding-top: 0px;
+    font-size: 120%;
+    margin-left: 20px;
+    box-shadow: 0px 0px 4px gray;
+}
+
+.invulKnop {
+    margin-left: 110px;
+}
+
+.planten > img {
+    display: flex;
+    padding-left: 10px;
+    width: 220px;
+}
